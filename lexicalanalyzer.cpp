@@ -293,7 +293,7 @@ int main(int argc, char* argv[]){
         string lineF;
         while (getline(cin, lineF)){
             lCount++;
-            lineF += '\n'
+            lineF += '\n';
             for (int i = 0; i < lineF.length(); i++){
                 c = lineF[i];
                 finalize = false;
